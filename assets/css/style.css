@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:wght@300;400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0 8%;
+}
+/* general effect */
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 45px;
+}
+p {
+  font-size: 22px;
+  color: #5e6264;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+body ul li {
+  display: inline-block;
+}
+/* first page */
+/* navbar */
+#first nav ul {
+  padding: 20px;
+  margin-top: 0;
+  text-align: right;
+}
+#first nav ul li {
+  font-size: 17px;
+  font-family: "Lato", sans-serif;
+  padding-left: 20px;
+}
+/* about illustration */
+#first article {
+  width: 45%;
+  padding: 15vh 55% 10vh 0%;
+}
+#first article h1:first-child,
+p:nth-child(2),
+button {
+  margin-bottom: 3vh;
+}
+#first article button {
+  width: 20%;
+  padding: 10px 13px;
+  font-size: 12px;
+  color: white;
+  background: black;
+  font-family: "Merriweather", serif;
+}
+#first article button + button {
+  color: black;
+  background: white;
+  border: white 1px solid;
+  box-shadow: 1px 3px 5px lightgray;
+}
+#first article:nth-of-type(1) {
+  background: url(../img/illustration1.gif) right/ contain no-repeat;
+}
+#first article:nth-of-type(2) {
+  background: url(../img/2.jpg) left/ contain no-repeat;
+}
+#first article:nth-of-type(3) {
+  background: url(../img/3.jpg) right/ contain no-repeat;
+}
+#first article:nth-of-type(even) {
+  padding: 15vh 0 10vh 55%;
+}
+/*app,examples & download */
+#second .info1,
+.info2,
+.info3,
+footer {
+  padding: 10vh 25vh;
+}
+#second .info1,
+.info2,
+.info3 h1,
+#second .info1,
+.info2,
+.info3 p,
+footer {
+  text-align: center;
+}
+#second .app img {
+  width: 25%;
+  margin-left: 6.2%;
+}
+#second .app img:nth-last-of-type(2):hover {
+  border: 1px solid grey;
+  box-shadow: 1px 2px darkgrey;
+}
+#second .use {
+  padding: 2vh 10vh;
+}
+#second .use img {
+  width: 40%;
+  padding-left: 6%;
+  margin-bottom: 6vh;
+}
+/* membership info */
+#second .info4 {
+  background: #f5fbfe;
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  padding: 5vh;
+}
+#second h2 {
+  font-size: 20px;
+}
+#second h2 + p {
+  font-size: 50px;
+  color: black;
+}
+.info4 ul {
+  padding: 0 10px;
+  margin-bottom: 5vh;
+}
+.info4 ul li {
+  margin-bottom: 5px;
+}
+.info4 a {
+  border: 1px solid #24bff2;
+  background-color: #24bff2;
+  border-radius: 5px;
+  color: white;
+  padding: 2vh 5vh;
+}
+/* footer-contact info */
+footer {
+  padding-top: 2vh;
+  color: gray;
+  font-family: "Merriweather", serif;
+}
+footer ul li {
+  display: block;
+  margin-bottom: 3vh;
+}
+footer h1,
+ul li:nth-child(even) {
+  color: black;
+}
+footer a::before {
+  content: " ∙";
+  font-size: 4vh;
+}
+footer a:nth-of-type(1) {
+  color: #1877f2;
+}
+footer a:nth-of-type(2) {
+  color: #e4405f;
+}
+footer a:nth-of-type(3) {
+  color: #1da1f2;
+}
+footer a:nth-of-type(4) {
+  color: #cd1028;
+}
+
+font-family: "Lato", sans-serif;
+font-family: "Merriweather", serif;
+
+farbe: #202020, #24bff2, #fff, #F5FBFE.;
